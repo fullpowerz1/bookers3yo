@@ -9,3 +9,44 @@ body{
 p{
     margin: 33px;
 }
+
+/*テーブルのCSS*/
+table{
+        display: table;
+        border-collapse: separate;
+        box-sizing: border-box;
+        text-indent: initial;
+        border-spacing: 2px;
+}
+
+thead{
+        display: table-header-group;
+        vertical-align: middle;
+}
+
+th{
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+tbody{
+        display: table-row-group;
+        vertical-align: middle;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+}
+
+td{
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*ここまでテーブルのCSS*/
+
+div.field, div.actions{
+                        margin-bottom: 10px;
+}
