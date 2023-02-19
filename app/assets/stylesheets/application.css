@@ -50,3 +50,17 @@ td{
 div.field, div.actions{
                         margin-bottom: 10px;
 }
+
+.jin{
+        color: #000;
+        cursor: pointer;
+        text-decoration: underline;
+}
+
+.boy {
+        margin-bottom: 10px;
+}
+
+.notice{
+            color: green;
+}
